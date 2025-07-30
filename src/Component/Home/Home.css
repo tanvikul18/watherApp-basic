@@ -1,0 +1,42 @@
+
+.serachcity-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;
+    margin:20px auto;
+}
+.weather-container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  box-shadow: 0 3px 6px 0 #555;
+  padding: 20px 10px;
+  border-radius: 4px;
+  width: 380px;
+  background: white;
+}
+.weather-image{
+    display: flex;
+    flex-direction: column;
+}
+.weather-image p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.serachcity-container input,.serachcity-container button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.serachcity-container button{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
