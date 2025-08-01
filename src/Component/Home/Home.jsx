@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Home.css'
 import axios from 'axios';
 import { API_KEY } from '../../API/constants';
-import Weather from '../../weather/weather';
+import Weather from '../../Weather/Weather.jsx';
 
 export default function Home() {
     const[searchTxt,setserachTxt]=useState('');
